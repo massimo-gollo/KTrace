@@ -15,4 +15,4 @@ FOUNDATION_EXPORT const unsigned char KTraceVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <KTrace/PublicHeader.h>
 
-
+#import "SimplePing.h"

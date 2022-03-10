@@ -9,16 +9,46 @@
 /* Begin PBXBuildFile section */
 		1C873B7F27DAB76D003730DC /* KTrace.docc in Sources */ = {isa = PBXBuildFile; fileRef = 1C873B7E27DAB76D003730DC /* KTrace.docc */; };
 		1C873B8027DAB76D003730DC /* KTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C873B7D27DAB76D003730DC /* KTrace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C873B8D27DAB86B003730DC /* KTracerExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C873B8C27DAB86B003730DC /* KTracerExampleApp.swift */; };
+		1C873B8F27DAB86B003730DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C873B8E27DAB86B003730DC /* ContentView.swift */; };
+		1C873B9127DAB86C003730DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C873B9027DAB86C003730DC /* Assets.xcassets */; };
+		1C873B9427DAB86C003730DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C873B9327DAB86C003730DC /* Preview Assets.xcassets */; };
+		1C873B9927DAB9F7003730DC /* KTrace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C873B9827DAB9F7003730DC /* KTrace.swift */; };
+		1C873B9B27DABA01003730DC /* KTraceHopInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C873B9A27DABA01003730DC /* KTraceHopInfo.swift */; };
+		1C873B9D27DABA09003730DC /* KTraceSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C873B9C27DABA09003730DC /* KTraceSettings.swift */; };
+		1C873B9F27DABA10003730DC /* KTraceInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C873B9E27DABA10003730DC /* KTraceInteraction.swift */; };
+		1C873BA227DABA6A003730DC /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C873BA127DABA6A003730DC /* SimplePing.m */; };
+		1C873BA427DABAD7003730DC /* SimplePing.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C873BA027DABA5D003730DC /* SimplePing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C873BA627DABC00003730DC /* KTrace.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 1C873BA527DABC00003730DC /* KTrace.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1C873B7A27DAB76D003730DC /* KTrace.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KTrace.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C873B7D27DAB76D003730DC /* KTrace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTrace.h; sourceTree = "<group>"; };
 		1C873B7E27DAB76D003730DC /* KTrace.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = KTrace.docc; sourceTree = "<group>"; };
+		1C873B8A27DAB86B003730DC /* KTracerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTracerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C873B8C27DAB86B003730DC /* KTracerExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTracerExampleApp.swift; sourceTree = "<group>"; };
+		1C873B8E27DAB86B003730DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1C873B9027DAB86C003730DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C873B9327DAB86C003730DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1C873B9827DAB9F7003730DC /* KTrace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTrace.swift; sourceTree = "<group>"; };
+		1C873B9A27DABA01003730DC /* KTraceHopInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTraceHopInfo.swift; sourceTree = "<group>"; };
+		1C873B9C27DABA09003730DC /* KTraceSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTraceSettings.swift; sourceTree = "<group>"; };
+		1C873B9E27DABA10003730DC /* KTraceInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTraceInteraction.swift; sourceTree = "<group>"; };
+		1C873BA027DABA5D003730DC /* SimplePing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
+		1C873BA127DABA6A003730DC /* SimplePing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
+		1C873BA527DABC00003730DC /* KTrace.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KTrace.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1C873B7727DAB76D003730DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C873B8727DAB86B003730DC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -31,7 +61,9 @@
 		1C873B7027DAB76D003730DC = {
 			isa = PBXGroup;
 			children = (
+				1C873BA527DABC00003730DC /* KTrace.podspec */,
 				1C873B7C27DAB76D003730DC /* KTrace */,
+				1C873B8B27DAB86B003730DC /* KTracerExample */,
 				1C873B7B27DAB76D003730DC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				1C873B7A27DAB76D003730DC /* KTrace.framework */,
+				1C873B8A27DAB86B003730DC /* KTracerExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -47,10 +80,43 @@
 		1C873B7C27DAB76D003730DC /* KTrace */ = {
 			isa = PBXGroup;
 			children = (
+				1C873BA327DABA82003730DC /* SimplePing */,
 				1C873B7D27DAB76D003730DC /* KTrace.h */,
+				1C873B9827DAB9F7003730DC /* KTrace.swift */,
+				1C873B9A27DABA01003730DC /* KTraceHopInfo.swift */,
+				1C873B9C27DABA09003730DC /* KTraceSettings.swift */,
+				1C873B9E27DABA10003730DC /* KTraceInteraction.swift */,
 				1C873B7E27DAB76D003730DC /* KTrace.docc */,
 			);
 			path = KTrace;
+			sourceTree = "<group>";
+		};
+		1C873B8B27DAB86B003730DC /* KTracerExample */ = {
+			isa = PBXGroup;
+			children = (
+				1C873B8C27DAB86B003730DC /* KTracerExampleApp.swift */,
+				1C873B8E27DAB86B003730DC /* ContentView.swift */,
+				1C873B9027DAB86C003730DC /* Assets.xcassets */,
+				1C873B9227DAB86C003730DC /* Preview Content */,
+			);
+			path = KTracerExample;
+			sourceTree = "<group>";
+		};
+		1C873B9227DAB86C003730DC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1C873B9327DAB86C003730DC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1C873BA327DABA82003730DC /* SimplePing */ = {
+			isa = PBXGroup;
+			children = (
+				1C873BA127DABA6A003730DC /* SimplePing.m */,
+				1C873BA027DABA5D003730DC /* SimplePing.h */,
+			);
+			path = SimplePing;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -61,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C873B8027DAB76D003730DC /* KTrace.h in Headers */,
+				1C873BA427DABAD7003730DC /* SimplePing.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +152,23 @@
 			productReference = 1C873B7A27DAB76D003730DC /* KTrace.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		1C873B8927DAB86B003730DC /* KTracerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C873B9527DAB86C003730DC /* Build configuration list for PBXNativeTarget "KTracerExample" */;
+			buildPhases = (
+				1C873B8627DAB86B003730DC /* Sources */,
+				1C873B8727DAB86B003730DC /* Frameworks */,
+				1C873B8827DAB86B003730DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KTracerExample;
+			productName = KTracerExample;
+			productReference = 1C873B8A27DAB86B003730DC /* KTracerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,9 +176,14 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					1C873B7927DAB76D003730DC = {
+						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
+					};
+					1C873B8927DAB86B003730DC = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
@@ -113,6 +202,7 @@
 			projectRoot = "";
 			targets = (
 				1C873B7927DAB76D003730DC /* KTrace */,
+				1C873B8927DAB86B003730DC /* KTracerExample */,
 			);
 		};
 /* End PBXProject section */
@@ -122,6 +212,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C873BA627DABC00003730DC /* KTrace.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C873B8827DAB86B003730DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C873B9427DAB86C003730DC /* Preview Assets.xcassets in Resources */,
+				1C873B9127DAB86C003730DC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +233,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C873B7F27DAB76D003730DC /* KTrace.docc in Sources */,
+				1C873B9B27DABA01003730DC /* KTraceHopInfo.swift in Sources */,
+				1C873B9F27DABA10003730DC /* KTraceInteraction.swift in Sources */,
+				1C873BA227DABA6A003730DC /* SimplePing.m in Sources */,
+				1C873B9D27DABA09003730DC /* KTraceSettings.swift in Sources */,
+				1C873B9927DAB9F7003730DC /* KTrace.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C873B8627DAB86B003730DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C873B8F27DAB86B003730DC /* ContentView.swift in Sources */,
+				1C873B8D27DAB86B003730DC /* KTracerExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +378,7 @@
 		1C873B8427DAB76D003730DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -284,6 +399,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -292,6 +408,7 @@
 		1C873B8527DAB76D003730DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -317,6 +434,64 @@
 			};
 			name = Release;
 		};
+		1C873B9627DAB86C003730DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KTracerExample/Preview Content\"";
+				DEVELOPMENT_TEAM = 4FXK6H96VD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.massimogollo.KTracerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C873B9727DAB86C003730DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KTracerExample/Preview Content\"";
+				DEVELOPMENT_TEAM = 4FXK6H96VD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.massimogollo.KTracerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -334,6 +509,15 @@
 			buildConfigurations = (
 				1C873B8427DAB76D003730DC /* Debug */,
 				1C873B8527DAB76D003730DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C873B9527DAB86C003730DC /* Build configuration list for PBXNativeTarget "KTracerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C873B9627DAB86C003730DC /* Debug */,
+				1C873B9727DAB86C003730DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
